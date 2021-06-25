@@ -1,0 +1,800 @@
+/* Paleta de colores */
+
+
+
+:root{
+
+    --marron:#5c3414;
+    --marrona: #ddd6cf;
+    --marronb: #958069;
+    --marronc:#ad9c8c;
+    --marrond:#ac9484;
+    --marrone: #ac9c84;
+    --marronf:#77583c;
+    --marrong: #84644c;
+  
+  
+}
+
+
+
+/* Barra de navegacion */
+nav{
+  background-image: url(/img/peeee.png);
+ background-size:cover;
+ background-position:bottom;
+ filter: contrast(1.75);
+ 
+
+  
+}
+
+
+nav:hover{
+  filter: opacity(.8);
+}
+.navegacion{
+
+color:black  !important;
+font-size:4rem;
+font-family: 'Jura', sans-serif;
+text-align:left;
+background-color:var(--marronf);
+
+filter: opacity(.9);
+
+
+}
+
+
+.navegacion:hover{
+background-color:var(--marron);
+filter: saturate(120%);
+
+}
+
+
+
+
+.lista{
+
+    color:black !important;
+    list-style: none;
+    display:flex;
+    justify-content: flex-start;
+    font-size:1.7rem;
+    background-color:#ac9484;
+    filter: contrast(3,1);
+    
+    
+}
+
+.lista :hover{
+
+  color:white !important;
+  background-color:var(--marron);
+  
+}
+
+a{
+    text-decoration:none;
+    color:black;
+    margin-left:6rem;
+    
+}
+
+
+/* Fin barra de navegacion pc*/
+
+
+
+
+
+
+/*Logo seccion principal*/
+.escudo{
+    width: 90px;
+    height: 90px;
+   
+    margin-left:6rem;
+    vertical-align: middle;
+   
+    
+}
+
+.escudo:hover{
+
+  filter: sepia(80%);
+}
+
+/* Fin logo seccion principal */
+
+
+/* Estructura principal*/
+
+main {
+  display: grid;
+  padding: 1rem;
+  grid-gap: 25rem;
+  grid-template-columns: repeat(2, 200px);
+  grid-template-rows: 150px 150px;
+  font-size: 5rem;
+  margin:0;
+  width: auto;
+  height:500px;
+  background-image: url(/img/fondos/shutterstock_image.jpg);
+  background-size: cover;
+  
+  
+}
+
+
+
+ .imagen {
+  
+  color: white;
+  padding: 1rem;
+  width: 400px;
+  height: 300px;
+  margin-left:28.8rem;
+  margin-top: 2rem;
+  
+  
+}
+
+.texto{
+  
+  color: var(--marron);
+  padding: 1rem;
+  width: 400px;
+  height:300px;
+  
+}
+
+.imagen_principal{
+  width: 527px;
+  height: 284px;
+  filter: grayscale(80%);
+  transform: rotate(0deg);
+  margin-left:-1rem;
+  
+  
+  
+}
+.imagen_principal:hover{
+  filter: saturate(120%);
+}
+
+h1{
+  font-size:3.2rem;
+  color:white;
+  margin-top:0.5rem;
+  margin-right:0.2rem;
+  line-height: 1.8em; 
+  margin-left:2rem;
+
+}
+
+h1:hover{
+  color:white;
+}
+
+
+
+.importante{
+  background-color:var(--marron);
+}
+
+
+p{
+  font-size:1.3rem;
+  color:white;
+margin-bottom:1rem;
+
+}
+
+ul{
+  margin:0;
+}
+
+
+/* Seccion Primera */
+
+.seccionprimera{
+
+  
+  color: white;
+  padding-top: 1rem;
+  
+
+
+}
+
+.secprimera{
+
+  display: grid;
+  padding: 7rem;
+  grid-gap: 4rem;
+  grid-template-columns: repeat(3, 320px);
+  grid-template-rows: repeat(2, 150px);
+  font-size: 5rem;
+  background-color:var(--marron);
+  background-image: url(/img/fondos/Diseño\ sin\ título\ \(2\).png);
+  background-size: cover;
+  
+  
+  
+}
+
+.seccionprimera{
+
+  filter: grayscale(80%);
+}
+.seccionprimera:hover{
+  filter: saturate(80%);
+
+}
+
+.platense{
+  height:150px;
+  width: 250px;
+}
+
+.ascenso{
+  margin:0;
+  font-size:1rem;
+  text-align:left;
+}
+
+
+/* Camiseta */
+
+.camiseta_platense{
+  background-color: black;
+  background-size: cover;
+  
+  height: 600px;
+}
+
+.c1{
+  width: 240px;
+  height: 240px;
+  filter: grayscale(80%);
+  margin-left:28rem;
+  margin-top:7.9rem;
+  transform: rotate3d(0,0,0,0deg);
+}
+
+
+
+.c2{
+  width:190px;
+  height: 490px;
+  filter: grayscale(80%);
+  margin-left:22.5rem;
+  margin-top:0rem;
+  transform: rotate3d(1, 0, 0, 60deg);
+  
+}
+
+.c1:hover{
+  filter: saturate(200%);
+}
+.c2:hover{
+  filter: saturate(200%);
+}
+.c3{
+  width: 190px;
+  height: 190px;
+  filter: grayscale(80%);
+  margin-left:-40.5rem;
+  margin-top:10rem;
+  transform: rotate3d(0,0,0,0deg);
+  
+}
+.c3:hover{
+  filter: saturate(200%);
+}
+
+
+.contenedorimg{
+   
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: 200px;
+    grid-gap: 13rem;
+    padding:2rem;
+  }
+  
+  
+
+  .leyenda{
+    color:black;
+    font-size:1rem;
+    width:1000px;
+    text-align:center;
+    font-size:4rem;
+    padding-left:20rem;
+    margin-top:12rem;
+  }
+
+  .leyenda:hover{
+    color:white;
+    padding-left:3rem;
+    background-color:var(--marron);
+    border-radius: 20px;
+    width: 100%;
+  }
+  
+ 
+ 
+ /* Seccion Jugadores */
+ 
+ 
+ .contprin{
+
+  display: grid;
+  padding: 2rem;
+  grid-gap: 4rem;
+  grid-template-columns: repeat(3, 320px);
+  grid-template-rows: repeat(2, 150px);
+  font-size: 1rem;
+  justify-content:center;
+  margin-right:57rem;
+ }
+ 
+ 
+ .uno{
+   width: 350px;
+   height: 400px;
+   margin-left:2rem;
+ }
+
+.tabla{
+
+  margin-left:2rem;
+  display:flex;
+  text-align:center;
+  justify-content:center;
+  align-items:center;
+  width: 350px;
+  height: 100px;
+  
+  
+}
+
+.conteiner{
+  width: 420px;
+ margin-left:25rem;
+}
+
+
+
+.total{
+
+  width: 100%;
+}
+.pos1{
+  background-color:#5c3414;
+  width: 33%;
+  color:white;
+  
+}
+
+.pos2{
+
+  background-color:#5c3414;
+  padding:0.5rem;
+  width: 33%;
+  color:white;
+ 
+}
+
+.pos3{
+
+  background-color:#5c3414;
+  padding:0.5rem;
+  width: 33%;
+  color:white;
+}
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-image: url(../image/fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 330vh;
+    background-color:var(--marronf);
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: arial;
+    margin-top: 80px;
+    color: rgb(59, 34, 6);
+    text-shadow: 0px 0px 6px black;
+}
+
+.content-all{
+    width: 210px;
+    margin: auto;
+    perspective: 800px;
+    position: relative;
+    margin-top: 50px;
+    
+}
+
+.content-carrousel{
+    width: 100%;
+    position: absolute;
+    animation: rotar 10s infinite linear;
+    transform-style: preserve-3d;
+}
+
+.content-carrousel:hover{
+    animation-play-state: paused;
+    cursor: pointer;
+}
+
+
+.content-carrousel figure{
+    width: 100%;
+    height: 120px;
+    overflow: hidden;
+    position: absolute;
+    box-shadow: 0px 0px 20px 0px black;
+    transition: all 300ms;
+    
+}
+
+.content-carrousel figure:hover{
+    box-shadow: 0px 0px 0px 0px black;
+    transition: all 300ms;
+}
+
+.content-carrousel figure:nth-child(1){transform: rotateY(0deg) translateZ(300px);}
+.content-carrousel figure:nth-child(2){transform: rotateY(40deg) translateZ(300px);}
+.content-carrousel figure:nth-child(3){transform: rotateY(80deg) translateZ(300px);}
+.content-carrousel figure:nth-child(4){transform: rotateY(120deg) translateZ(300px);}
+.content-carrousel figure:nth-child(5){transform: rotateY(160deg) translateZ(300px);}
+.content-carrousel figure:nth-child(6){transform: rotateY(200deg) translateZ(300px);}
+.content-carrousel figure:nth-child(7){transform: rotateY(240deg) translateZ(300px);}
+.content-carrousel figure:nth-child(8){transform: rotateY(280deg) translateZ(300px);}
+.content-carrousel figure:nth-child(9){transform: rotateY(320deg) translateZ(300px);}
+.content-carrousel figure:nth-child(10){transform: rotateY(360deg) translateZ(300px);}
+
+
+.content-carrousel img{
+    width: 100%;
+    transition: all 300ms;
+}
+
+.content-carrousel img:hover{
+    transform: scale(1.2);
+    transition: all 300ms;
+}
+
+
+@keyframes rotar{
+    from{
+        transform: rotateY(0deg);
+    }to{
+        transform: rotateY(360deg);
+    }
+}
+
+/* Fin Seccion Jugadores */
+
+
+
+
+/*Seccion Sponsors */
+.sponsorsp{
+
+  width: 200px;
+  height:250px;
+  
+  
+}
+
+/* Version Mobile */
+/* Inicio Barra de Navegacion*/
+
+@media (max-width: 780px) {
+   a {
+    color:black;
+    
+   }
+   .lista{
+    color:white;
+      background-color:var(--marron);
+      padding:0.2rem;
+      font-size:2.5rem;
+      margin:0px;
+  }
+   .lista{
+     display:block;
+   }
+
+   .escudo{
+     display:flex;
+     
+     margin-left:2rem;
+    
+    
+
+   }
+  
+  .escudo:hover{
+    filter: sepia(80%);
+
+
+
+  }
+
+
+  
+.navegacion{
+
+  color:black;
+  font-size:4rem;
+  text-align:left;
+  background-color:var(--marron);
+  
+  
+  
+  
+  }
+  
+  
+  .navegacion:hover{
+  background-color:var(--marron);
+  color:black;
+  }
+
+
+ nav{
+  background-image: url(/img/peeee.png);
+  background-size:cover;
+  
+  
+  
+ }
+
+ /* Fin barra de navegacion */
+ 
+ 
+ 
+ /* Seccion Principal */
+ 
+ .imagen_principal{
+width: 300px;
+height: 200px;
+}
+ 
+main {
+  display: grid;
+  padding: 1rem;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(1, 200px);
+  grid-template-rows:  150px;
+  font-size: 5rem;
+  margin:0;
+  width: auto;
+  height:420px;
+  background-image: url(/img/lñineass.jpg);
+
+  
+  
+}
+
+.imagen{
+
+ width: 200px;
+ height: 188px;
+  display:block;
+margin:auto;
+}
+
+h1{
+  color:white;
+  font-size: 2.0rem;
+  margin-top:2.3rem;
+  margin-right:4rem;
+}
+h1:hover{
+  color:white;
+  
+
+
+}
+
+p{
+ color:white;
+ margin-top:0.6rem;
+ text-align:justify;
+ font-size:1.1rem;
+}
+
+p:hover{
+
+  color:white;
+}
+
+/* Fin seccion principal */
+
+/*Inicio Seccion Primera */
+
+
+ .secprimera{
+
+  display: grid;
+  padding: 3rem;
+  grid-gap: 6rem;
+  grid-template-columns: repeat(1, 150px);
+  grid-template-rows: repeat(1, 150px);
+  font-size: 5rem;
+  background-color:var(--marron);
+ 
+ background-size:contain;
+ filter: grayscale(80%);
+ background-image: url(/img/fondos/Diseño\ sin\ título\ \(2\).png);
+  
+  
+  
+}
+
+.secprimera:hover{
+
+  filter:saturate(80%);
+}
+
+.ascenso{
+font-size:3rem;
+}
+
+.platense{
+
+  margin-left:1rem;
+}
+
+
+/* Camiseta */
+.camiseta_platense{
+  background-color:black;
+  height: 85rem;
+
+}
+
+.c1{
+  width: 300px;
+  margin:0;
+}
+
+.c2{
+  width: 300px;
+
+}
+
+.c3{
+  width: 300px;
+  
+}
+
+
+
+.contenedorimg{
+   
+    display: grid;
+    grid-template-columns: repeat(1, 200px);
+    grid-template-rows: 200px;
+    grid-gap: 10rem;
+    padding:2rem;
+    
+  }
+
+  
+  
+  /*
+  .leyenda{
+    color:black;
+    width:50px;
+    height: 10px;
+    font-size:1rem;
+    text-align: left;
+    padding-left:10rem;
+    margin:0px;
+    
+   
+    
+    
+   
+  }
+
+ */
+
+  .leyenda{
+    color:white;
+   font-size:2.5rem;
+    border-radius: 20px;
+    width: 355px;
+    height: 100px;
+    padding:2rem;
+    margin:0;
+    text-align:center;
+}
+
+
+.comprar{
+  margin-left:4rem;
+
+  
+ 
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body{
+  background-image: url(../image/fondo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 330vh;
+  background-color:var(--marronf);
+}
+
+h2{
+  text-align: center;
+  font-size: 40px;
+  font-family: arial;
+  margin-top: 80px;
+  margin-bottom:10rem;
+  color: rgb(59, 34, 6);
+  text-shadow: 0px 0px 6px black;
+}
+/* Sponsors*/
+.sponsorsp{
+
+  width: 375px;
+}
+
+/* Jugadores */
+
+
+
+.contprin{
+  display:block;
+width: 50px;
+height: 50px;
+margin:0;
+padding:0;
+  
+  
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
